@@ -1,5 +1,4 @@
 
-------
 ---
 title: "Lab 6: Saving for Retirement"
 author: "Eungkyun Kim"
@@ -33,8 +32,26 @@ output:
     df_print: kable
 ---
 
+```{r setup, include = FALSE}
+# DO NOT ALTER THIS CHUNK
+knitr::opts_chunk$set(
+  echo = TRUE,
+  eval = TRUE,
+  fig.width = 5,
+  fig.asp = 0.618,
+  out.width = "70%",
+  dpi = 120,
+  fig.align = "center",
+  cache = FALSE
+)
 
+# Load required packages
+install.packages("dplyr")
+library(dplyr)
 
+suppressPackageStartupMessages(library(tidyverse))
+suppressPackageStartupMessages(library(infer))
+```
 
 
 
